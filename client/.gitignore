@@ -1,0 +1,126 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing outputs
+/coverage
+/test-results
+
+# Build outputs
+/build
+/dist
+/out
+/tmp
+/.next
+/.nuxt
+/parcel-cache
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific files
+*.log
+*.lock
+*.bak
+*.tmp
+
+# IDE-specific files
+*.iml
+*.ipr
+*.iws
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Miscellaneous
+*.log
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled files
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.pyd
+*.class
+
+# Static assets and generated files
+/.cache
+/.nuxt
+.next
+/sass-cache
+/.eslintcache
+/.babelrc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swpx
+*.swo
+*.err
+*.rej
+
+# Generated documentation
+/docs/
+/doc/
+
+# Ignore JetBrains IDE folders
+/.idea
+/.idea/
+
+# Ignore specific frameworks
+/.expo/
+/.expo/
+.cdk.staging/
+cdk.out/
+
+# Ignore database or service files
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# Ignore Yarn and NPM specific files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Ignore lockfiles
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
